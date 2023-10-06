@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+
+.body{
+    background-color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+h1{font-size: 3em;}
+h2{font-size: 2.5em;
+    font-weight: bold;
+}
+h3{font-size: 1.2em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+h5{font-size: 2em;}
+h5 span{
+    font-size: 1em;
+    font-weight: bold;
+}
+ul{list-style: none;}
+li{font-size: 1.2em;}
+p{font-size: 1.2em;}
+li span{
+    font-weight: bold;
+}
+p span{
+    font-weight: bold;
+}
+.header{
+    background-color:blueviolet;
+}
+
+.button{
+    font-size: 0.7em;
+    font-weight: bold;
+    padding: 12px 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(0,0,0,0.5);
+    box-shadow: 3px 3px 10px rgb(0,0,0,0.5);
+    color: black;
+    background-color:rgb(205, 185, 185)
+}
+.button:hover{
+    background-color: rgb(165, 154, 130);
+}
+.nosotros{
+    text-align: justify;
+    line-height: 2em;
+}
