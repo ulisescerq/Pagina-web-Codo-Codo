@@ -52,3 +52,60 @@ p span{
     text-align: justify;
     line-height: 2em;
 }
+
+.card{
+    background-color: blanchedalmond ;
+    border-radius: 20px;
+    display: block;
+    box-shadow: 10px;
+    padding: 10px 10px;
+    
+}
+
+/* Estilos para los botones */
+.btn-primary {
+    background-color: #007BFF; /* Color de fondo principal */
+    color: #fff; /* Color del texto */
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Cambio de color de fondo al pasar el ratón por encima */
+}
+
+.btn-danger {
+    background-color: #DC3545; /* Color de fondo para el botón de borrar */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-danger:hover {
+    background-color: #A32E39; /* Cambio de color de fondo al pasar el ratón por encima */
+}
+
+.borrar-button {
+    background-color: #DC3545; 
+    color: #fff; 
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-left: 10px; 
+    margin-bottom: 10px;
+}
+
+.borrar-button:hover {
+    background-color: #A32E39; 
+}
+
+.resultado-total {
+    font-size: 30px; 
+}
